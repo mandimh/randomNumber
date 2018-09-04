@@ -1,0 +1,45 @@
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+header {
+    background: #444;
+    color: white;
+    width: 100%;
+    padding: 1.75em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 1.75em;
+}
+
+main div {
+    align-self: center;
+}
+
+input {
+    height: 3em;
+}
+button {
+    font-size: 1.2em;
+    background: #33ffbd;
+    height: 5em;
+    margin-top: 15%;
+    border-radius: 10%;
+}
+button:hover {
+    border: .5px solid #333;
+    transform: scale(1.05);
+}
+
+#results {
+    //display: grid;
+    margin: 5% auto;
+    width: 50%;
+    font-size: 1.3em;
+    background: #33ffbd;
+}
