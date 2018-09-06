@@ -26,7 +26,7 @@ function getValues() {
                 }
             }
             resultsArr = resultsArr.sort((a,b) => a-b).toString().replace(/,/g, ", ");
-            return textBox.innerHTML = `Results: <br><br> ${resultsArr}`;
+            return textBox.innerHTML = `Your random numbers are: <br><br> ${resultsArr}`;
         } else {
             textBox.innerHTML = "You cannot return more numbers than are in your range.";
         }

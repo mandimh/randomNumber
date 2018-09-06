@@ -36,10 +36,8 @@ button:hover {
     transform: scale(1.05);
 }
 
-#results {
-    //display: grid;
+.resultsDiv {
     margin: 5% auto;
-    width: 50%;
+    max-width: 50%;
     font-size: 1.3em;
-    background: #33ffbd;
 }
